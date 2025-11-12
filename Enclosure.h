@@ -1,15 +1,27 @@
-#ifndef ENCLOSURE_H
-#define ENCLOSURE_H
+#include <iostream>
+using namespace std;
 
-#include "Animal.h"
+class Enclosure{
+    
+    private:
+    std:: Animal* a;
+    int capacity;
+    int currentCount;
 
-//define enclosure class here 
+    Enclosure(int capacity, int currentCount){
+        capacity = 0;
+        currentCount = 0;
+    }
+
+
+    void addAnimal(Animal* a){
+
+    }
+
+    void displayAnimals(){
+
+    }
 
 
 
-
-
-
-
-
-#endif
+};
